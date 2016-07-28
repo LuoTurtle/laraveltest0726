@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Epilogue by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
             <meta charset="utf-8">
@@ -15,11 +10,9 @@
 	</head>
 	<body>
 
-		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="inner">
 					<h1>You want know Me!?</h1>
-					<p>這是我套用網路參考樣板，搭配Eclise所製作出的簡單個人介紹網站</p>
 				</div>
 			</header>
 
@@ -43,7 +36,7 @@
 						</article>
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/pic02.jpg" alt="" /></a>
+								<a href="{{route('about me') }}"><img src="images/pic02.jpg" alt="" /></a>
 								<h3>關於我</h3>
 							</header>
 							<p><br><br>想更多了解我嗎?<br><br></p>
@@ -57,7 +50,7 @@
 						</article>
 						<article class="item">
 							<header>
-                                                            <a href="#"><img src="{{asset('images/4.jpg')}}"alt=""/></a>
+                                                            <a href="{{route('before1') }}"><img src="{{asset('images/4.jpg')}}"alt=""/></a>
 								<h3>專題經驗</h3>
 							</header>
 							<p>系統研究-跟車系統app開發<br>專題研究-水庫上游集水區土地使用與水質相關性<br>專題研究-筏子溪周邊地區都市計畫開發模擬<br>專題研究-台中市南區南和、永興、永和里都市環境通盤檢討計畫

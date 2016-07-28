@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('hello');
 });
+Route::get('1', ['as'=>'about me',function () {
+    return view('app');
+}]);
+Route::get('2', ['as'=>'before1',function () {
+    return view('welcome');
+}]);
